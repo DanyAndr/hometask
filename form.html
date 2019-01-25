@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form method="POST" action="https://formspree.io/danyloandrukhiv088@ukr.net">
+        <lable for="name">Name:</lable>
+            <input type="text" id="name"
+            placeholder="Name" required
+            name="user-name">
+            <br>
+            <br>
+        <lable for="mail">Email:</lable>
+            <input type="email" id="mail" 
+            placeholder="Email" required
+            name="user-email">
+        <br>
+        <br>
+            <lable for="route">Usefull information?</lable><br>
+        <input type="radio" name="route" value="Yes" checked> Yes<br>
+        <input type="radio" name="route" value="No"> No<br>
+        <input type="radio" name="route" value="Not sure"> Not sure<br><br>
+  
+        <lable for="msg">Message:</lable>
+            <textarea id="msg" placeholder="Message" required
+            name="user_message"></textarea>
+            <br>
+            <br>
+        <div class="button">
+              <button type="submit">SEND</button>
+        </div>
+    </form>    
+</body>
+</html>
